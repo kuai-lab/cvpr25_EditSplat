@@ -12,6 +12,7 @@
 from argparse import ArgumentParser, Namespace
 import sys
 import os
+import json
 
 class GroupParams:
     pass
@@ -114,24 +115,22 @@ class OptimizationParams(ParamGroup):
         super().__init__(parser, "Optimization Parameters")
 
 
-def get_combined_args(parser : ArgumentParser):
+def get_combined_args(parser: ArgumentParser):
     cmdlne_string = sys.argv[1:]
-    cfgfile_string = "Namespace()"
     args_cmdline = parser.parse_args(cmdlne_string)
-
+    cfgfile_data = {}
+    cfgfilepath = os.path.join(args_cmdline.model_path, "args.json")
     try:
-        cfgfilepath = os.path.join(args_cmdline.model_path, "cfg_args")
         print("Looking for config file in", cfgfilepath)
-        with open(cfgfilepath) as cfg_file:
-            print("Config file found: {}".format(cfgfilepath))
-            cfgfile_string = cfg_file.read()
-    except TypeError:
-        print("Config file not found at")
-        pass
-    args_cfgfile = eval(cfgfile_string)
+        with open(cfgfilepath, "r") as cfg_file:
+            print("Config file found:", cfgfilepath)
+            cfgfile_data = json.load(cfg_file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("Config file not found or invalid JSON at", cfgfilepath)
 
-    merged_dict = vars(args_cfgfile).copy()
-    for k,v in vars(args_cmdline).items():
-        if v != None:
+    merged_dict = cfgfile_data.copy()
+    for k, v in vars(args_cmdline).items():
+        if v is not None:
             merged_dict[k] = v
+
     return Namespace(**merged_dict)
