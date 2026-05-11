@@ -40,7 +40,7 @@ conda activate editsplat
 ## 📂 **Results and Weights**
 
 We provide results and weights for all scenes presented in our paper.
-- 📥 **Download**: [Link](https://kuaicv.synology.me/weights/cvpr2024/EditSplat/EditSplat.zip)
+- 📥 **Download**: [Link](https://kuaicv.synology.me/weights/cvpr2025/EditSplat/EditSplat.zip)
 
 
 If you want to edit your own dataset, you must first pre-train a 3D Gaussian Splatting (3DGS) model from your custom dataset using COLMAP for camera poses.
