@@ -195,13 +195,12 @@ output/face_to_marble_sculpture/video/ours_30560/
 If you find our work useful, please consider citing:
 
 ```tex
-@InProceedings{Lee_2025_CVPR,
-    author    = {Lee, Dong In and Park, Hyeongcheol and Seo, Jiyoung and Park, Eunbyung and Park, Hyunje and Baek, Ha Dam and Shin, Sangheon and Kim, Sangmin and Kim, Sangpil},
-    title     = {EditSplat: Multi-View Fusion and Attention-Guided Optimization for View-Consistent 3D Scene Editing with 3D Gaussian Splatting},
-    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
-    month     = {June},
-    year      = {2025},
-    pages     = {11135-11145}
+@inproceedings{lee2025editsplat,
+  title={Editsplat: Multi-view fusion and attention-guided optimization for view-consistent 3d scene editing with 3d gaussian splatting},
+  author={Lee, Dong In and Park, Hyeongcheol and Seo, Jiyoung and Park, Eunbyung and Park, Hyunje and Baek, Ha Dam and Shin, Sangheon and Kim, Sangmin and Kim, Sangpil},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={11135--11145},
+  year={2025}
 }
 ```
 
