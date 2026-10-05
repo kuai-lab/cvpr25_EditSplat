@@ -1,4 +1,4 @@
-name: editsplat_test
+name: editsplat
 channels:
   - pytorch
   - nvidia
