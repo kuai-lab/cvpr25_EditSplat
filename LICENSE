@@ -1,0 +1,100 @@
+# KUAICV Research-Only License
+
+Copyright (c) Korea University Artificial Intelligence Computer Vision Lab (KUAICV)  
+Korea University, Department of Artificial Intelligence  
+https://kuaicv.com/
+
+All rights reserved.
+
+## 1. Permission for Research and Non-Commercial Use
+
+Permission is hereby granted to use, copy, modify, and distribute this software, source code, models, algorithms, documentation, and associated materials (collectively, the "Software") **solely for non-commercial academic, educational, and research purposes**, subject to the terms and conditions of this License.
+
+The Software may be used by universities, research institutions, individual researchers, and students for non-commercial research and educational activities.
+
+## 2. Commercial Use Prohibited
+
+Any commercial use of the Software is strictly prohibited without prior written permission from the Korea University Artificial Intelligence Computer Vision Lab (KUAICV).
+
+Prohibited commercial uses include, but are not limited to:
+
+- incorporating the Software, in whole or in part, into a commercial product or service;
+- using the Software to provide paid services or commercial consulting;
+- using the Software for internal commercial research or product development by a for-profit entity;
+- selling, sublicensing, renting, or otherwise commercially distributing the Software or any derivative work thereof;
+- using the Software, its outputs, or derivative implementations primarily for commercial advantage or monetary compensation.
+
+For commercial licensing inquiries, please contact KUAICV through:
+
+https://kuaicv.com/
+
+## 3. Attribution and License Notice
+
+Any use, copy, modification, or distribution of the Software for research or other permitted purposes **must retain this License and all copyright notices**.
+
+Any redistributed copy or derivative work based on the Software must include a copy of this License in a clearly visible location.
+
+When the Software is used in academic publications, technical reports, demonstrations, datasets, models, software repositories, or other research outputs, users must appropriately acknowledge the Korea University Artificial Intelligence Computer Vision Lab (KUAICV) and, where applicable, cite the associated publication(s) specified by the repository.
+
+At minimum, attribution should include:
+
+> Korea University Artificial Intelligence Computer Vision Lab (KUAICV)  
+> Department of Artificial Intelligence, Korea University  
+> https://kuaicv.com/
+
+Removal, modification, or concealment of copyright notices, attribution notices, or this License is prohibited.
+
+## 4. Derivative Works
+
+Modification of the Software and creation of derivative works are permitted only for non-commercial academic, educational, and research purposes.
+
+Any derivative work must:
+
+1. clearly state that it is based on or derived from Software developed by KUAICV;
+2. retain the original copyright notice;
+3. include a copy of this License; and
+4. be distributed under terms that do not permit commercial use of the original Software or any substantial portion thereof without prior written permission from KUAICV.
+
+Distribution of a modified version does not grant any ownership rights in the original Software.
+
+## 5. Ownership
+
+The Software is and shall remain the intellectual property of the Korea University Artificial Intelligence Computer Vision Lab (KUAICV) and/or its respective authors and contributors.
+
+Nothing in this License shall be interpreted as transferring ownership, copyright, patent rights, trademarks, or any other intellectual property rights to the user.
+
+The permissions granted under this License constitute a limited, non-exclusive, non-transferable, and revocable license to use the Software only as expressly permitted herein.
+
+## 6. No Trademark Rights
+
+This License does not grant permission to use the names, trademarks, logos, or branding of Korea University, the Korea University Department of Artificial Intelligence, or KUAICV for endorsement, promotion, or commercial purposes without separate written permission.
+
+## 7. Third-Party Components
+
+The Software may contain or depend upon third-party software, datasets, models, libraries, or other materials that are subject to their own licenses and terms.
+
+Users are responsible for complying with all applicable third-party licenses.
+
+This License applies only to portions of the Software for which KUAICV or its contributors hold the applicable rights.
+
+## 8. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL KOREA UNIVERSITY, KUAICV, OR THE AUTHORS OR CONTRIBUTORS OF THE SOFTWARE BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## 9. Termination
+
+Any violation of the terms of this License automatically terminates the permissions granted under this License.
+
+Upon termination, the user must cease use and distribution of the Software and any unauthorized derivative copies.
+
+## 10. Commercial Licensing
+
+Organizations or individuals wishing to use the Software for commercial purposes must obtain a separate written commercial license or authorization from KUAICV and/or the applicable rights holder before such use.
+
+Commercial use without such authorization is not permitted.
+
+---
+
+By downloading, accessing, copying, modifying, or using the Software, you acknowledge that you have read and understood this License and agree to comply with its terms.
